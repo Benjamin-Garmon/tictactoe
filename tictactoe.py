@@ -62,12 +62,12 @@ def play_game(lst):
 				print('bad input, try again')
 				continue
 			#check if player 2 is the winner
-			if winner(lst) == 'O':
-				print("player 2 wins")
-				game = False
-				break
-			elif winner(lst) == 'Tie':
-				print("It's a Tie!!")
+		if winner(lst) == 'O':
+			print("player 2 wins")
+			game = False
+			break
+		elif winner(lst) == 'Tie':
+			print("It's a Tie!!")
 
 #starting list	
 tictactoe = [['_','_','_'],['_','_','_'],['_','_','_']]
